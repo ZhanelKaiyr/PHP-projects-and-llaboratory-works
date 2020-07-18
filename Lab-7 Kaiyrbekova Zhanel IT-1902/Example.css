@@ -1,0 +1,30 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  text-align:center;
+}
+.full
+{
+  display: flex;
+  flex-wrap: wrap;
+  height:100%;
+}
+.header, .footer
+{
+  background-color: palegreen;
+  height:15%;
+  width: 100%;
+}
+.left, .right
+{
+  background-color: aqua;
+  width: 20%;
+  height: 70%;
+}
+.main
+{
+  background-color: lightblue;
+  width: 60%;
+  height:70%;
+}
